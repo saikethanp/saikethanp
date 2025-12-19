@@ -1,0 +1,5 @@
+{
+  "name": "Resume Intellect by kethanstudios",
+  "description": "A high-performance resume analyzer that matches candidates against job descriptions and generates tailored HR interview questions using Gemini 3 Pro.",
+  "requestFramePermissions": []
+}
