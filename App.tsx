@@ -87,7 +87,7 @@ const App: React.FC = () => {
                   <h2 className="text-lg font-semibold text-slate-800">Job Description</h2>
                 </div>
                 <textarea
-                  className="w-full h-64 p-4 text-sm border border-slate-200 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:border-transparent outline-none transition-all resize-none bg-slate-50 focus:bg-white"
+                  className="w-full h-64 p-4 text-sm text-slate-900 border border-slate-200 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:border-transparent outline-none transition-all resize-none bg-slate-50 focus:bg-white"
                   placeholder="Paste the target job description here..."
                   value={jobDescription}
                   onChange={(e) => setJobDescription(e.target.value)}
@@ -100,7 +100,7 @@ const App: React.FC = () => {
                   <h2 className="text-lg font-semibold text-slate-800">Resume / Profile</h2>
                 </div>
                 <textarea
-                  className="w-full h-64 p-4 text-sm border border-slate-200 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:border-transparent outline-none transition-all resize-none bg-slate-50 focus:bg-white"
+                  className="w-full h-64 p-4 text-sm text-slate-900 border border-slate-200 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:border-transparent outline-none transition-all resize-none bg-slate-50 focus:bg-white"
                   placeholder="Paste candidate's resume or LinkedIn text here..."
                   value={resumeText}
                   onChange={(e) => setResumeText(e.target.value)}
